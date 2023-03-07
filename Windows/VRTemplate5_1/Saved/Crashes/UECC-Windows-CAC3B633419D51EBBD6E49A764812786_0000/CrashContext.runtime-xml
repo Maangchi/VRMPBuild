@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>BAFAD8F54C14D0AC8CCDC7BF78FFA5A2</ExecutionGuid>
+<CrashGUID>UECC-Windows-CAC3B633419D51EBBD6E49A764812786_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Assertion failed: SessionInfo-&gt;SessionType == ESteamSession::LobbySession [File:D:\build\++UE5\Sync\Engine\Plugins\Online\OnlineSubsystemSteam\Source\Private\OnlineSessionInterfaceSteam.cpp] [Line: 629] 
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>3512</ProcessId>
+<SecondsSinceStart>21</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-VRTemplate5_1</GameName>
+<ExecutableName>VRTemplate5_1</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.1.1-23901901+++UE5+Release-5.1</EngineVersion>
+<CommandLine> VRTemplate5_1</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.1-CL-23901901</BuildVersion>
+<Symbols>**UE5*Release-5.1-CL-23901901-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/duhqe/Documents/Unreal Projects/VRTemplate5_1/VRMPBuild/Windows/VRTemplate5_1/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/duhqe/Documents/Unreal Projects/VRTemplate5_1/VRMPBuild/Windows/</RootDir>
+<MachineId>2B075C9245CF3548E8CA38B7E4DB3600</MachineId>
+<LoginId>2b075c9245cf3548e8ca38b7e4db3600</LoginId>
+<EpicAccountId>e84bde9c35c74fa58d144a729a2dae9b</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>16</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>24</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>13th Gen Intel(R) Core(TM) i7-13700KF</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 4080</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (22H2) [10.0.22621.1265]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>34190106624</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>36337590272</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>20641525760</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>15213539328</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>648687616</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>648921088</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>1828786176</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>1898659840</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+VRTemplate5_1  0x00007ff7b7c40000 + da0100          
+VRTemplate5_1  0x00007ff7b7c40000 + dc97648         
+Unknown        0x0000000000000000 + 4000            
+tbb            0x0000000180000000 + 7e80004000      
+</PCallStack>
+<PCallStackHash>F37CE4F29263A793978CA398ED8BF489C290EB2A</PCallStackHash>
+<Threads><Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+tbb            0x0000000180000000 + 1af80000002     
+tbb            0x0000000180000000 + 2621772400      
+XINPUT1_3      0x0000000000400000 + 83821a          
+tbb            0x0000000180000000 + 262177e7c0      
+VRTemplate5_1  0x00007ff7b7c40000 + 0               
+ntdll          0x00007ff9ccb90000 + ffff80060f83ba00
+Unknown        0x0000000000000000 + 48              
+Unknown        0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>18628</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+D3D12Core      0x000001b16ff10000 + 1e4e900effff    
+Unknown        0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1476</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+Unknown        0x0000000000000000 + 75c88           
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+D3D12Core      0x000001b16ff10000 + 1e4e900effff    
+Unknown        0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16468</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e9000         
+tbb            0x0000000180000000 + 26267ffa00      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfffff        
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21860</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 262737f320      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfffff        
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10776</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 2627eff400      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfff00        
+Unknown        0x0000000000000000 + 48              
+tbb            0x0000000180000000 + 2580000001      
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3360</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + b2699c0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+tbb            0x0000000180000000 + 1afd45254b0     
+tbb            0x0000000180000000 + 2628a7f8b8      
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3220</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+Unknown        0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4120</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+tbb            0x0000000180000000 + 262a17f740      
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 262a17f740      
+VRTemplate5_1  0x00007ff7b7c40000 + 4cccb00         
+XINPUT1_3      0x0000000000400000 + ffbfffff        
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4032</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+Unknown        0x0000000000000000 + 75ad2           
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+D3D12Core      0x000001b16ff10000 + 1e4e900effff    
+Unknown        0x0000000000000000 + 84a8            
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+tbb            0x0000000180000000 + 1afdcd76450     
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19960</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+Unknown        0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21372</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + b2699c0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+tbb            0x0000000180000000 + 1afd44c5a00     
+tbb            0x0000000180000000 + 262c3ffa00      
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1280</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + b2699c0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+Unknown        0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13004</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+Unknown        0x0000000000000000 + 75c40           
+tbb            0x0000000180000000 + 262daff580      
+D3D12Core      0x000001b16ff10000 + 1e4e900effff    
+Unknown        0x0000000000000000 + 84a8            
+VRTemplate5_1  0x00007ff7b7c40000 + db45400         
+tbb            0x0000000180000000 + 1afe6d474e0     
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21176</ThreadID>
+<ThreadName>Background Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+tbb            0x0000000180000000 + 262e67f5c0      
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 262e67f5c0      
+VRTemplate5_1  0x00007ff7b7c40000 + 4cccb00         
+XINPUT1_3      0x0000000000400000 + ffbfffff        
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8632</ThreadID>
+<ThreadName>Background Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 262f1ff470      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfff00        
+Unknown        0x0000000000000000 + 48              
+tbb            0x0000000180000000 + 2580000001      
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18784</ThreadID>
+<ThreadName>Background Worker #14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 262fd7f490      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfffff        
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20208</ThreadID>
+<ThreadName>Background Worker #15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 26308ff700      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfff00        
+Unknown        0x0000000000000000 + 48              
+tbb            0x0000000180000000 + 2580000001      
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20204</ThreadID>
+<ThreadName>Background Worker #16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 263147f690      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfffff        
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20396</ThreadID>
+<ThreadName>Background Worker #17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 2631fff970      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfffff        
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13220</ThreadID>
+<ThreadName>Background Worker #18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+Unknown        0x0000000000000000 + 757f7           
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+D3D12Core      0x000001b16ff10000 + 1e4e900eff00    
+Unknown        0x0000000000000000 + 8400            
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+tbb            0x0000000180000000 + 1afe6d48250     
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9856</ThreadID>
+<ThreadName>Background Worker #19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + 1fe0bd0         
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+VRTemplate5_1  0x00007ff7b7c40000 + b2e90c0         
+tbb            0x0000000180000000 + 26336ff910      
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+XINPUT1_3      0x0000000000400000 + ffbfff00        
+Unknown        0x0000000000000000 + 48              
+tbb            0x0000000180000000 + 2580000001      
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19752</ThreadID>
+<ThreadName>Background Worker #20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+Unknown        0x0000000000000000 + 75a59           
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+D3D12Core      0x000001b16ff10000 + 1e4e900effff    
+Unknown        0x0000000000000000 + 84a8            
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20772</ThreadID>
+<ThreadName>Background Worker #21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21376</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20892</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15920</ThreadID>
+<ThreadName>Reserve Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1236</ThreadID>
+<ThreadName>Reserve Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20388</ThreadID>
+<ThreadName>Reserve Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2700</ThreadID>
+<ThreadName>Reserve Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18324</ThreadID>
+<ThreadName>Reserve Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19264</ThreadID>
+<ThreadName>Reserve Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14500</ThreadID>
+<ThreadName>Reserve Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20676</ThreadID>
+<ThreadName>Reserve Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16396</ThreadID>
+<ThreadName>Reserve Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1776</ThreadID>
+<ThreadName>Reserve Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22464</ThreadID>
+<ThreadName>Reserve Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15328</ThreadID>
+<ThreadName>Reserve Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21976</ThreadID>
+<ThreadName>Reserve Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6904</ThreadID>
+<ThreadName>Reserve Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2828</ThreadID>
+<ThreadName>Reserve Worker #14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6664</ThreadID>
+<ThreadName>Reserve Worker #15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7908</ThreadID>
+<ThreadName>Reserve Worker #16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20592</ThreadID>
+<ThreadName>Reserve Worker #17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19600</ThreadID>
+<ThreadName>Reserve Worker #18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+tbb            0x0000000180000000 + 1afeafec800     
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+tbb            0x0000000180000000 + 1afeb3ce800     
+Unknown        0x0000000000000000 + 1               
+ntdll          0x00007ff9ccb90000 + 9c203c33470000  
+VRTemplate5_1  0x00007ff7b7c40000 + 31d07fb         
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15560</ThreadID>
+<ThreadName>Reserve Worker #19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+tbb            0x0000000180000000 + 1afeb08e000     
+tbb            0x0000000180000000 + 264343fb60      
+tbb            0x0000000180000000 + 1afeb3d8e00     
+Unknown        0x0000000000000000 + 1               
+ntdll          0x00007ff9ccb90000 + 99203c607a4b00  
+VRTemplate5_1  0x00007ff7b7c40000 + 31d07fb         
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3112</ThreadID>
+<ThreadName>Reserve Worker #20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+tbb            0x0000000180000000 + 1afeb12f800     
+tbb            0x0000000180000000 + 2643fbf640      
+tbb            0x0000000180000000 + 1afeb3e1400     
+Unknown        0x0000000000000000 + 1               
+ntdll          0x00007ff9ccb90000 + 52003c607a4c00  
+VRTemplate5_1  0x00007ff7b7c40000 + 31d07fb         
+Unknown        0x0000000000000000 + 48              
+D3D12Core      0x000001b16ff10000 + 7e45900f0001    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2728</ThreadID>
+<ThreadName>Reserve Worker #21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9f484           
+ntdll          0x00007ff9ccb90000 + 55873           
+tbb            0x0000000180000000 + 248a144b2c      
+tbb            0x0000000180000000 + 2487836020      
+tbb            0x0000000180000000 + 248a144b24      
+VRTemplate5_1  0x00007ff7b7c40000 + 32e1295         
+Unknown        0x0000000000000000 + a               
+KERNELBASE     0x00007ff9ca1b0000 + 4a0ed           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16860</ThreadID>
+<ThreadName>FAsyncWriter_VRTemplate5_1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21180</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00007ff9ccb90000 + 9f484           
+ntdll  0x00007ff9ccb90000 + 55873           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16112</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+tbb            0x0000000180000000 + 1afe764aac0     
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+tbb            0x0000000180000000 + 1afee126cd0     
+VRTemplate5_1  0x00007ff7b7c40000 + d8c8208         
+tbb            0x0000000180000000 + 1af80000102     
+ntdll          0x00007ff9ccb90000 + ffff80063343f2c0
+Unknown        0x0000000000000000 + 48              
+Unknown        0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12044</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10872</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9120</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13068</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12448</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1648</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20628</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+VRTemplate5_1  0x00007ff7b7c40000 + b64e410         
+tbb            0x0000000180000000 + 262cf7ee08      
+tbb            0x0000000180000000 + 1afe5bbf760     
+tbb            0x0000000180000000 + 1afe57ec088     
+tbb            0x0000000180000000 + 1afe76fd190     
+VRTemplate5_1  0x00007ff7b7c40000 + 75ab314         
+Unknown        0x0000000000000000 + 48              
+tbb            0x0000000180000000 + 1af80000001     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20824</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20440</ThreadID>
+<ThreadName>RHIInterruptThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+tbb         0x0000000180000000 + 2656bff1c0      
+tbb         0x0000000180000000 + 1afe9997c18     
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9636</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+XINPUT1_3      0x0000000000400000 + ffc00000        
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+XINPUT1_3      0x0000000000400000 + ffbfffff        
+D3D12Core      0x000001b16ff10000 + 7e45900f0000    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20152</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll    0x00007ff9ccb90000 + 9f484           
+ntdll    0x00007ff9ccb90000 + 55873           
+Unknown  0x0000000000000000 + 3               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21328</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19540</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+clbcatq     0x000001b16f600000 + 411a78          
+tbb         0x0000000180000000 + 1afea384890     
+clbcatq     0x000001b16f600000 + 411a80          
+tbb         0x0000000180000000 + 265a5bf850      
+tbb         0x0000000180000000 + 1af90683400     
+ntdll       0x00007ff9ccb90000 + ffff6c7e33472710
+Unknown     0x0000000000000000 + 48              
+ntdll       0x00007ff9ccb90000 + f481024233470001
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22492</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll          0x00007ff9ccb90000 + 9ee84           
+KERNELBASE     0x00007ff9ca1b0000 + 39c4e           
+tbb            0x0000000180000000 + 1af9e4c18e0     
+VRTemplate5_1  0x00007ff7b7c40000 + 32f1e00         
+tbb            0x0000000180000000 + 1af870cde40     
+VRTemplate5_1  0x00007ff7b7c40000 + d8c8208         
+tbb            0x0000000180000000 + 1af80000102     
+ntdll          0x00007ff9ccb90000 + ffff80063320da60
+Unknown        0x0000000000000000 + 48              
+Unknown        0x0000000000000000 + 1               
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17916</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll  0x00007ff9ccb90000 + 9f484           
+ntdll  0x00007ff9ccb90000 + 55873           
+ntdll  0x00007ff9ccb90000 + 7e46a9b0817b    
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2136</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+tbb         0x0000000180000000 + 2660d9f7a0      
+ntdll       0x00007ff9ccb90000 + 5df90           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9324</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>532</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff9ccb90000 + 9ee84           
+KERNELBASE  0x00007ff9ca1b0000 + 39c4e           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4660</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 4080</RHI.AdapterName>
+<RHI.UserDriverVersion>528.02</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.2802</RHI.InternalDriverVersion>
+<RHI.DriverDate>12-22-2022</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2704</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
